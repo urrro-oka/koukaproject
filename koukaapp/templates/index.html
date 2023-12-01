@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+        {% block title %} HOME {% endblock %}
+        {% block contents %}
+
+
+                {% include "list.html" %}
+                {% include "pagination.html" %}
+
+        {% endblock %}
